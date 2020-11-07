@@ -1,11 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import Home from './components/Home';
-import Router from './Router';
+import React from 'react';
+import Users from './Users';
+import UsersAgain from './UsersAgain';
 
-function App() {
+
+const App = () => {
   return (
-    <Router />
+    <div>
+      {/* <Users /> */}
+      <UsersAgain />
+    </div>
   );
 }
 
